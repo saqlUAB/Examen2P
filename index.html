@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEGUNDO PARCIAL-tecnologgias del internet</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script></head>
+    <body onload="startTime()">
+    <div class="contenedor-principal">
+        <div class="menu-header">
+          <ul>
+            <li>Inicio</li>
+            <li>Tecnologias</li>
+            <li>Licencias</li>
+            <li>Inicio de secion</li>
+          </ul>
+        </div>
+        <div class="barra-header">
+          <div class="logo">
+            <div class="img-logo">
+              <img src="logo.png" alt="">
+            </div>
+          </div>
+          <div class="barra-navegacion">
+            <div class="buscador">
+              <select class="input-css">
+                <option>Seleccionar...............</option>
+                <option>.Framework</option>
+                <option>.net CORE</option>
+                <option>OTROS</option>
+              </select>
+              <input class="input-css" type="text" value="" placeholder="Introduzca valor">
+              <button class="btn-css">BUSCAR</button>
+            </div>
+            <div class="menu">
+              <ul>
+                <li>Inicio</li>
+                <li>LICENCIAS</li>
+                <li>TECNOLOGIAS</li>
+                <li>COMPONENTES</li>
+                <li>OTROS..</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="barrar-carrusel">
+          <div class="categorias">
+            <h3>Nuestras Líneas</h3>
+              <ul>
+                <li>INICIO</li>
+                <li>TECNOLOGIAS</li>
+                <li>MANUALES</li>
+                <li>VERSIONES</li>
+                <li>LICENCIAS</li>
+                <li>ARTICULOS</li>
+                <li>MAS</li>
+              </ul>
+        </div>
+          
+       
+        <div class="galery">
+            <figure>
+              <img class="img" src="img.png">
+              <figcaption>Tu mejor Opcion .NET CORE</figcaption>
+            </figure>
+        </div>
+    </div>
+        <div class="main">
+         
+          <div class="contador">
+            <h3>Contador de clicks</h3>
+            <button id="botonClick">Click</button>
+            <p id="areaContador"></p>
+            <script type="text/javascript">
+                var botonElement = document.getElementById("botonClick");
+                var pElement = document.getElementById("areaContador");
+                var contador = 0;
+                botonElement.onclick = function () {
+                    contador++;
+                    pElement.textContent = contador;
+                }
+            </script>
+          </div>
+          <div class="reloj">
+            <div id="clockdate">
+                <div class="clockdate-wrapper">
+                  <div id="clock"></div>
+                  <div id="date"></div>
+                </div>
+              </div>
+        </div>
+        <div class="seccion">
+          <div class="social">
+            <h4>Redes Sociales</h4>
+            <img class="img" src="img2.png" alt="datos">
+          </div>
+          <div class="productos">
+            <article class="articulo">
+              <div class="image"><img src="img3.png" alt=""></div>
+              <p>Desarrollo de Software con SSIS</p>
+              <button>Ver mas..</button>
+            </article>
+            <article class="articulo">
+              <div class="image"><img src="img4.png" alt=""></div>
+              <p>WPF Application</p>
+              <button>Ver mas..</button>
+            </article>
+            <article class="articulo">
+              <div class="image"><img src="img5.png" alt=""></div>
+              <p>Windows Forms (WinForms) Application </p>
+              <button>Ver mas..</button>
+            </article>
+            <article class="articulo">
+              <div class="image"><img src="img6.png" alt=""></div>
+              <p>Worker Service </p>
+              <button>Ver Detalle</button>
+            </article>
+           
+          </div>   
+
+        </div>
+     
+        
+        <footer>
+           <p>UNIVERSIDAD ADVENTISTA DE BOLIVIA</p>
+           <p>ESTUDIANTE: Quenta Leon Sara Andrea</p>
+        </footer>
+      </div>
+      
+</body>
+
+</html>
